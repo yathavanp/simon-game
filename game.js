@@ -16,7 +16,7 @@ function restart(){
         }
     });
 
-    $("h1").click(function(){
+    $("#level-title").click(function(){
         if(start === false){     
             start = true;
             nextsequence();
