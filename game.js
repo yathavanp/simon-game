@@ -15,6 +15,13 @@ function restart(){
             nextsequence();
         }
     });
+
+    $("h1").click(function(){
+        if(start === false){     
+            start = true;
+            nextsequence();
+        }
+    });
 }
     
 
